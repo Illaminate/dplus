@@ -1,6 +1,6 @@
 # D+
 Delightful and delicate.
-![A screenshot of Discord modified using the Discord+ theme](https://github.com/Illaminate/dplus/blob/master/assets/theme-preview.png?raw=true)
+![A screenshot of Discord modified using the Discord+ theme](https://github.com/Illaminate/dplus/blob/main/assets/theme-preview.png?raw=true)
 **D+** (`dplus`) is a user-favorite theme for a certain chat app. It's sleek and customizable, without getting in your way.
 
 ## User customization
