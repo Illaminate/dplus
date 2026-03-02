@@ -1,6 +1,7 @@
 /*
-* This file styles plugins.
-* Sorted alphabetically, first by author, then by plugin name.
+* This file is deprecated, and will one day be removed.
+* Themes should not need extra code to support plugins.
+* Plugins should instead reuse and extend the native UI.
 */
 
 /* Plugins */
@@ -147,22 +148,19 @@
 		#channelTabs-container {
 			background-color: var(--dplus-bgc-ui-base);
 			border-radius: var(--dplus-radius-ui);
-			height: 28px;
 			margin: 0;
 		}
 
-		.channelTabs-tabNav,
-		#channelTabs-settingsMenu {
-			display: none;
+		.channelTabs-tabContainer {
+			position: relative;
 		}
 
-		.channelTabs-tabContainer {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			margin: 0 15px 0 5px;
-			padding-top: 0 !important;
+		.channelTabs-tabNav + div {
+			width: 100%;
+		}
+		.channelTabs-tabNav + div div:first-child {
+			border-top-left-radius: var(--dplus-radius-ui);
+			border-bottom-left-radius: var(--dplus-radius-ui);
 		}
 
 		.channelTabs-tab {
@@ -231,12 +229,3 @@
 		.bf-toolbar .format:hover img {
 			opacity: 1;
 		}
-
-
-
-
-
-
-
-
-
